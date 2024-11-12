@@ -8,7 +8,7 @@ function App() {
   const [eyePosition, setEyePosition] = useState({ x: 0, y: 0 });
   const [copied, setCopied] = useState(false);
   const [triggerEyeBurst, setTriggerEyeBurst] = useState(0);
-  const tokenAddress = "ttttooooorrrrreeee";
+  const tokenAddress = "Et9SGcPAPi4qQ5ZTcpiKSvLEGdhRrBmrr8fJ7cPupump";
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -86,7 +86,10 @@ function App() {
           </div>
           
           <button className="group px-12 py-6 bg-gradient-to-r from-purple-600 to-yellow-600 rounded-2xl font-bold text-xl hover:from-purple-700 hover:to-yellow-700 transition-all duration-300 transform hover:scale-105">
-            <span className="text-gray-900">Buy on Pump.fun</span>
+           <a href="https://pump.fun/coin/Et9SGcPAPi4qQ5ZTcpiKSvLEGdhRrBmrr8fJ7cPupump" target="_blank" rel="noopener noreferrer">
+    <span className="text-gray-900">Buy on Pump.fun</span>
+  </a>
+            
             <span className="block text-xs text-gray-800">(if you can catch us)</span>
           </button>
         </div>
